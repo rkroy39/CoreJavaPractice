@@ -1,10 +1,11 @@
 package basicprograms;
 
 class A
-{ 	int a=5;
- 	void print() {
- 	System.out.println("inside print A");
- 	}
+{ 	
+int a=5;
+ 	void print() {
+ 	System.out.println("inside print A");
+ 	}
 	public static void main(String[] args) {
 		System.out.println("Inside A");
 	}
