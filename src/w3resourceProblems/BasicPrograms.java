@@ -1,4 +1,4 @@
-package basicprograms;
+package w3resourceProblems;
 
 public class BasicPrograms {
 	public static void main(String[] args) {
