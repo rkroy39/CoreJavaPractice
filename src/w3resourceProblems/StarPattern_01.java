@@ -49,6 +49,21 @@ public class StarPattern_01 {
 		}
 			
 	}
+	
+	void pattern5() {
+		for(int i=0;i<=5;i++) {
+			for(int j=0;j<=6;j++) {
+				
+				if(i%2==0)
+				System.out.print("*");
+				else
+					System.out.print("#");
+
+			}
+			System.out.println("");
+		}
+			
+	}
 	public static void main(String[] args) {
 	
 		StarPattern_01 ab=new StarPattern_01();
@@ -60,6 +75,8 @@ public class StarPattern_01 {
 		ab.pattern3();
 		System.out.println("Pattern 4");
 		ab.pattern4();
+		System.out.println("Pattern 5");
+		ab.pattern5();
 
 }
 }
