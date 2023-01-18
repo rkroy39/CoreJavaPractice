@@ -51,7 +51,7 @@ public class HashMapProblems_001 {
 		map.put("2", "Saurabh");
 		map.put("3", "Ram");
 		map.put("4", "Raman");
-		//map.put("5", "Ramani");
+		map.put("5", "Ramani");
 		
 		System.out.println("Map >>>> "+map);
 		System.out.println("Map as EntrySet >>>"+map.entrySet());
@@ -59,7 +59,7 @@ public class HashMapProblems_001 {
 		Set s=map.entrySet();
 		Iterator itr =s.iterator();
 		while(itr.hasNext()) {
-			System.out.println("itr.next()>>>>>>>"+itr.next());
+			//System.out.println("itr.next()>>>>>>>"+itr.next());
 			Map.Entry entry=(Entry) itr.next();
 			System.out.println(entry.getKey()+" "+entry.getValue());
 			
